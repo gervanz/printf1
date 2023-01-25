@@ -124,7 +124,7 @@ int print_hexa(va_list types, char map_to[],
 
 int print_non_printable(va_list types, char buffer[],
 
-			int flags, int precision, int size);
+			int width, int flags, int precision, int size);
 
 
 
