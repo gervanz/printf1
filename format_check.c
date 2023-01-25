@@ -7,7 +7,7 @@
  * Return: Pointer to valid function if exists
  */
 
-int (*check_format(const char *format))(va_list)
+int (*format_check(const char *format))(va_list)
 {
 	int i = 0;
 
@@ -24,6 +24,6 @@ int (*check_format(const char *format))(va_list)
 		if (*(p[i].t) == *format)
 			break;
 	}
-	
+
 	return (p[i].f);
 }

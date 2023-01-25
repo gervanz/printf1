@@ -17,7 +17,6 @@ int _printf(const char *format, ...)
 		return (-1);
 
 	va_start(args, format);
-
 	while (format &&  format[i])
 	{
 		if (format[i] != '\0')
@@ -48,7 +47,6 @@ int _printf(const char *format, ...)
 		}
 		i++;
 	}
-
 	va_end(ap);
-	return(counter);
+	return (counter);
 }

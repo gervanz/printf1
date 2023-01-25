@@ -34,7 +34,7 @@ int print_str(va_list s)
 
 /*------------------------- PRINT % -------------------------*/
 /**
- * print_str - Prints a %
+ * print_perC - Prints a %
  * @perC: Percent
  * Return: Percent
  */
