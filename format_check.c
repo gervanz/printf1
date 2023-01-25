@@ -12,9 +12,9 @@ int (*check_format(const char *format))(va_list)
 	int i = 0;
 
 	print_t p[] = {
-		{'%', print_pc},
 		{'c', print_chr},
 		{'s', print_str},
+		{'%', print_perC},
 		{'\0', NULL},
 		{NULL, NULL}
 	};

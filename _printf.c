@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * _printf - Function for format printing
+ * _printf - Function for format handling
  * @format: Format specifier
  * Return: Number of characters printed
  */

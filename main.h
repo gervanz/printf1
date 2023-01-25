@@ -18,5 +18,8 @@ typedef struct print
 int _printf(const char *format, ...);
 int _putchar(char c);
 int (*check_format(const char *format))(va_list);
+int print_chr(va_list chr);
+int print_str(va_list s);
+int print_perC(va_list perC);
 
 #endif /* MAIN_H */
